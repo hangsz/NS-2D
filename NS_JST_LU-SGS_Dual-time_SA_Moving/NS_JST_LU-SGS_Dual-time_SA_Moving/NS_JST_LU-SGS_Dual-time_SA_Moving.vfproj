@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{93B8907B-EBDB-4B43-927B-B941C258C9D6}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="FVM">
+		<Filter Name="Turbulence">
+		<File RelativePath=".\allocateMemory_tur.f90"/>
+		<File RelativePath=".\artDissipation_tur.f90"/>
+		<File RelativePath=".\conFlux_tur.f90"/>
+		<File RelativePath=".\getmuT.f90"/>
+		<File RelativePath=".\gradient_tur.f90"/>
+		<File RelativePath=".\meanEdge_tur.f90"/>
+		<File RelativePath=".\SA.f90"/>
+		<File RelativePath=".\SA_solver.f90"/>
+		<File RelativePath=".\visFlux_tur.f90"/></Filter>
+		<File RelativePath=".\artDissipation.f90"/>
+		<File RelativePath=".\conFlux.f90"/>
+		<File RelativePath=".\FVM.f90"/>
+		<File RelativePath=".\gradient.f90"/>
+		<File RelativePath=".\LU_SGS.f90"/>
+		<File RelativePath=".\meanEdge.f90"/>
+		<File RelativePath=".\output.f90"/>
+		<File RelativePath=".\outputFreeFlow.f90"/>
+		<File RelativePath=".\readFlow.f90"/>
+		<File RelativePath=".\reorder.f90"/>
+		<File RelativePath=".\rotation.f90"/>
+		<File RelativePath=".\solver.f90"/>
+		<File RelativePath=".\visFlux.f90"/></Filter>
+		<File RelativePath=".\controlPara.f90"/>
+		<File RelativePath=".\gridInfo.f90"/>
+		<File RelativePath=".\main.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

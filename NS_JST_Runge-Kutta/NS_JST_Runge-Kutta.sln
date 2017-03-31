@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "NS_JST_Runge-Kutta", "NS_JST_Runge-Kutta\NS_JST_Runge-Kutta.vfproj", "{E1A22E38-C411-4D82-8322-3465206AF562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A22E38-C411-4D82-8322-3465206AF562}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1A22E38-C411-4D82-8322-3465206AF562}.Debug|Win32.Build.0 = Debug|Win32
+		{E1A22E38-C411-4D82-8322-3465206AF562}.Release|Win32.ActiveCfg = Release|Win32
+		{E1A22E38-C411-4D82-8322-3465206AF562}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

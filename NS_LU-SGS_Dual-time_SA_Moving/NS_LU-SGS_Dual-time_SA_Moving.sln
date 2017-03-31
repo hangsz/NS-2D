@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "NS_LU-SGS_Dual-time_SA_Moving", "NS_LU-SGS_Dual-time_SA_Moving\NS_LU-SGS_Dual-time_SA_Moving.vfproj", "{D730F875-2898-46FD-B9E2-DF4CF1A0264F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D730F875-2898-46FD-B9E2-DF4CF1A0264F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D730F875-2898-46FD-B9E2-DF4CF1A0264F}.Debug|Win32.Build.0 = Debug|Win32
+		{D730F875-2898-46FD-B9E2-DF4CF1A0264F}.Release|Win32.ActiveCfg = Release|Win32
+		{D730F875-2898-46FD-B9E2-DF4CF1A0264F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

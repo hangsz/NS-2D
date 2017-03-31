@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "NS_JST_LU-SGS_kw-SST", "NS_JST_LU-SGS_kw-SST\NS_JST_LU-SGS_kw-SST.vfproj", "{775118D7-F0AA-47AD-B503-9D81112176F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775118D7-F0AA-47AD-B503-9D81112176F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{775118D7-F0AA-47AD-B503-9D81112176F5}.Debug|Win32.Build.0 = Debug|Win32
+		{775118D7-F0AA-47AD-B503-9D81112176F5}.Release|Win32.ActiveCfg = Release|Win32
+		{775118D7-F0AA-47AD-B503-9D81112176F5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

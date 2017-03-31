@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{BBB5890C-DF8E-4B4C-8342-5C328DB0EB2F}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="FVM">
+		<Filter Name="algebraEquationSolve">
+		<File RelativePath=".\LU_SGS.f90"/>
+		<File RelativePath=".\LU_SGS_SA.f90"/>
+		<File RelativePath=".\LU_SGS_SST.f90"/>
+		<File RelativePath=".\reorder.f90"/></Filter>
+		<Filter Name="conFlux">
+		<Filter Name="JST">
+		<File RelativePath=".\artDissipation.f90"/>
+		<File RelativePath=".\conFlux_JST.f90"/></Filter>
+		<Filter Name="Roe">
+		<File RelativePath=".\conFlux_Roe.f90"/>
+		<File RelativePath=".\timeStep.f90"/></Filter></Filter>
+		<Filter Name="flowInit">
+		<File RelativePath=".\flowInit.f90"/>
+		<File RelativePath=".\flowInit_dynamic.f90"/>
+		<File RelativePath=".\flowInit_static.f90"/></Filter>
+		<Filter Name="gradient">
+		<File RelativePath=".\Gradient.f90"/></Filter>
+		<Filter Name="meanEdge">
+		<File RelativePath=".\meanEdge.f90"/>
+		<File RelativePath=".\meanEdge_1.f90"/></Filter>
+		<Filter Name="moving">
+		<File RelativePath=".\moving.f90"/></Filter>
+		<Filter Name="output">
+		<File RelativePath=".\Cp.f90"/>
+		<File RelativePath=".\output.f90"/>
+		<File RelativePath=".\outputFreeFlow.f90"/></Filter>
+		<Filter Name="solver">
+		<File RelativePath=".\solver.f90"/>
+		<File RelativePath=".\solver_dynamic.f90"/>
+		<File RelativePath=".\solver_static.f90"/></Filter>
+		<Filter Name="Turbulence">
+		<Filter Name="SA">
+		<File RelativePath=".\allocateMemory_SA.f90"/>
+		<File RelativePath=".\artDissipation_SA.f90"/>
+		<File RelativePath=".\conFlux_SA.f90"/>
+		<File RelativePath=".\getMut_SA.f90"/>
+		<File RelativePath=".\gradient_SA.f90"/>
+		<File RelativePath=".\meanEdge_SA.f90"/>
+		<File RelativePath=".\Resi_SA.f90"/>
+		<File RelativePath=".\SA.f90"/>
+		<File RelativePath=".\visFlux_SA.f90"/></Filter>
+		<Filter Name="SST">
+		<File RelativePath=".\allocateMemory_SST.f90"/>
+		<File RelativePath=".\artDissipation_SST.f90"/>
+		<File RelativePath=".\conFlux_SST.f90"/>
+		<File RelativePath=".\getMut_SST.f90"/>
+		<File RelativePath=".\gradient_SST.f90"/>
+		<File RelativePath=".\meanEdge_SST.f90"/>
+		<File RelativePath=".\Resi_SST.f90"/>
+		<File RelativePath=".\SST.f90"/>
+		<File RelativePath=".\visFlux_SST.f90"/></Filter></Filter>
+		<Filter Name="visFlux">
+		<File RelativePath=".\visFlux.f90"/></Filter>
+		<File RelativePath=".\FVM.f90"/></Filter>
+		<Filter Name="grid">
+		<File RelativePath=".\gridInfo.f90"/></Filter>
+		<Filter Name="setting">
+		<File RelativePath=".\controlPara.f90"/></Filter>
+		<File RelativePath=".\main.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "NS_JST_Runge-Kutta_Dual-time", "NS_JST_Runge-Kutta_Dual-time\NS_JST_Runge-Kutta_Dual-time.vfproj", "{591BF57B-13EE-4149-81FC-DAF89FE944CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591BF57B-13EE-4149-81FC-DAF89FE944CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{591BF57B-13EE-4149-81FC-DAF89FE944CD}.Debug|Win32.Build.0 = Debug|Win32
+		{591BF57B-13EE-4149-81FC-DAF89FE944CD}.Release|Win32.ActiveCfg = Release|Win32
+		{591BF57B-13EE-4149-81FC-DAF89FE944CD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "NS_JST_LU-SGS_Dual-time_Moving", "NS_JST_LU-SGS_Dual-time_Moving\NS_JST_LU-SGS_Dual-time_Moving.vfproj", "{28E6DBD4-16AC-4CE6-B170-26D2E404F5BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E6DBD4-16AC-4CE6-B170-26D2E404F5BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28E6DBD4-16AC-4CE6-B170-26D2E404F5BC}.Debug|Win32.Build.0 = Debug|Win32
+		{28E6DBD4-16AC-4CE6-B170-26D2E404F5BC}.Release|Win32.ActiveCfg = Release|Win32
+		{28E6DBD4-16AC-4CE6-B170-26D2E404F5BC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
